@@ -1,0 +1,15 @@
+{
+  "name": "notarypro-root",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npm --prefix notarypro run dev",
+    "dev": "npm --prefix notarypro run dev",
+    "build": "npm --prefix notarypro run build",
+    "preview": "npm --prefix notarypro run preview",
+    "install-app": "cd notarypro && npm install"
+  },
+  "dependencies": {
+    "react-scroll": "^1.9.3"
+  }
+}
